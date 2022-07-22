@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>OSCE simulations</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <div class="container">
+            
+            
+            <h1>OSCE simulations</h1>
+            <p class="page-description">This is a website for medical students to practice taking histories on a simulated patient. <i>(Warning: The voice recording feature only works on <u>Google Chrome</u>.)</i></p>
+            <!-- <p><a class="tz-link" href="https://tutorialzine.com/2017/08/converting-from-speech-to-text-with-javascript">Read the full article on Tutorialzine »</a></p> -->
+
+            <!-- <p class="no-browser-support">(Warning: The voice recording feature only works on Google Chrome.)</p> -->
+            <br>
+            <div class="app"> 
+                <h3>Case 1:</h3>
+
+                
+                
+                <figure>
+                <img src="https://globalvoices.org/wp-content/uploads/2016/06/longreads-refugee-diaries-ahmad_ahihabi-768x514.jpg" alt="Male for case 1" 
+                style="float: right; margin-left: 10px; margin-bottom: 5px;  border: solid black 1px; padding: 2px; width:35%; border-radius: 20px;">
+                <!-- <figcaption><font size="-2">39 year old male with chest pain</font></figcaption> -->
+                </figure>
+                
+
+                <h5>You are a Junior Doctor in a GP, and your next patient is a 39 year old male that is complaining of chest pain. Please take a full history.</h5>
+                <div class="input-single">
+                    <textarea id="note-textarea" placeholder="Ask a question by typing or using voice recognition." rows="6" style="width:60%"></textarea>
+                </div>         
+                <button id="start-record-btn" title="Start Recording">Start Recognition</button>
+                <button id="pause-record-btn" title="Pause Recording">Pause Recognition</button>
+                <button id="save-note-btn" title="Save Note">Submit Question</button>   
+                <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and start speaking to record a question. Then press <strong>Submit Question</strong> to get a response</p>
+                <br>
+                <br>
+                <h3>My Questions:</h3>
+                <ul id="notes">
+                    <li>
+                        <p class="no-notes">You don't have any questions.</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        
+
+    </body>
+</html>
