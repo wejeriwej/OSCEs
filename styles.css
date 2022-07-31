@@ -1,0 +1,249 @@
+
+
+#topheader {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(249, 191, 191);
+    height: 90px;
+}
+
+.titlepagefront {
+    margin-left: 3.5%;
+    font-size: 300%;
+    font-size-adjust: 0.58;
+
+
+
+    font-weight: 100;
+    font-display: white;
+    display: inline-block;
+    margin-right: 0px;
+    height: 10px;
+    }
+
+.indexpage {
+    margin-left: 10%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 0px;
+    height: 10px;
+    
+    
+    }
+
+.case1header {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 0px;
+    height: 10px;
+}
+
+.case2header {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 0px;
+    height: 10px;
+}
+
+
+.title{
+    margin-left: 3.5%;
+    margin-top: 10px;
+    margin-right: 3.5%;
+    margin-bottom: 10px;
+}
+
+.page-description {
+    margin-left: 3.5%;
+    margin-top: 10px;
+    margin-right: 3.5%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+#countdown {
+    background-color: lightblue;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    margin: auto;
+    height: 50%;
+    width: 95px;
+    font-weight: 700;
+}
+
+#start-record-btn {
+    height: 5%;
+    width: 10%;
+    
+}
+
+#start-record-btn:hover {
+    height: 5%;
+    width: 10%;
+    padding: 5px;
+}
+
+#save-note-btn {
+    height: 5%;
+    width: 13%;
+    border: solid black 1px; 
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -235px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(249, 191, 191);
+    color:black;
+    font-size: 140%;
+
+}
+
+#start-record-btn-for-summary {
+    height: 2.5%;
+    width: 5%;
+    margin-top: 5px;
+}
+
+#start-record-btn-for-summary:hover {
+    height: 2.5%;
+    width: 5%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#save-note-btn-for-summary {
+    height: 5%;
+    width: 10%;
+    border: solid black 1px;
+    margin-left: 10px;
+    margin-top: -50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(249, 191, 191);
+    color:black;
+}
+
+.app {
+    margin-left: 3.5%;
+    margin-top: 10px;
+    margin-right: 3.5%;
+    margin-bottom: 10px;
+}
+
+
+.note {
+    width:100%;
+    
+}
+.header{
+    margin-left: 20px; 
+}
+
+.listen-note {
+    margin-left: 100px;
+}
+
+.delete-note {
+    margin-left: 50px;
+
+}
+
+.date {
+    margin-left: 750px;
+}
+
+.forgottoaskabout{
+    float: right;
+    margin-top: 10px;
+    
+    margin-bottom: 10px;
+}
+
+#whatQuyoumissed-btn{
+    background-color: rgb(249, 191, 191);
+    color:black;
+    border: solid black 1px;
+    height: 5%;
+    padding: 5px;
+    font-size: 170%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
