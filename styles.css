@@ -1,0 +1,742 @@
+#topheader {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: lightcyan;
+  height: 90px;
+}
+
+#logo {
+  margin-top: 5px;
+  margin-left: 0px;
+ 
+  height: 78px;
+  width: 320px;
+}
+
+.logoplacement{
+  text-align: center;
+}
+
+.nav-area{
+  
+  padding: 5px;
+  
+  /*display: inline-block; */
+}
+
+/*#positionofeachheaderbtn {
+  margin-left: 20%
+}*/
+
+
+
+
+#navigationtings li{
+  padding-right: 100px;
+  display : in-line;
+  
+}
+
+#casebytopiclayout li{
+  padding: 0px;
+  
+}
+
+
+
+
+#headerplacement{
+  width: 100%;
+
+}
+
+
+/*
+#headerplacement ul{
+  text-align: center;
+
+}
+
+#headerplacement li{
+  display: inline-block;
+
+}*/
+
+
+
+/*
+.homebtn {
+  margin-right : 20%;
+  text-align: centre;
+}
+
+
+
+
+.secondheaderbtn{
+  margin-right: 20%;
+}
+
+.thirdheaderbtn{
+  margin-right: 20%;
+
+}
+*/
+
+/*
+.titlepagefront {
+  margin-left: 3.5%;
+  font-size: 300%;
+  font-size-adjust: 0.58;
+
+
+
+  font-weight: 100;
+  font-display: white;
+  display: inline-block;
+  margin-right: 0px;
+  height: 10px;
+  }
+
+.indexpage {
+  margin-left: 10%;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 0px;
+  height: 10px;
+  
+  
+  }
+
+.case1header {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 0px;
+  height: 10px;
+}
+
+.case2header {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 0px;
+  height: 10px;
+}
+
+
+.title{
+  margin-left: 3.5%;
+  margin-top: 10px;
+  margin-right: 3.5%;
+  margin-bottom: 10px;
+}
+
+*/
+
+.page-description {
+  margin-left: 3.5%;
+  margin-top: 10px;
+  margin-right: 3.5%;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#countdown {
+  background-color: lightblue;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+  margin: auto;
+  height: 50%;
+  width: 95px;
+  font-weight: 700;
+}
+
+#start-record-btn {
+  height: 65px;
+  width: 65px;
+  
+}
+
+#start-record-btn:hover {
+  height: 65px;
+  width: 65px;
+  padding: 3px;
+}
+
+#save-note-btn {
+  height: 40px;
+  width: 160px;
+  border: solid black 1px; 
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: -50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(249, 191, 191);
+  color:black;
+  font-size: 1.1em;
+
+}
+
+#start-record-btn-for-summary {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+#start-record-btn-for-summary:hover {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  padding: 1.5px;
+}
+
+#save-note-btn-for-summary {
+  height: 35px;
+  width: 150px;
+  border: solid black 1px;
+  margin-left: 10px;
+  margin-top: -20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(249, 191, 191);
+  color:black;
+}
+
+
+#start-record-btn-for-blood {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+#start-record-btn-for-blood:hover {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  padding: 1.5px;
+}
+
+#save-note-btn-for-blood {
+  height: 35px;
+  width: 150px;
+  border: solid black 1px;
+  margin-left: 10px;
+  margin-top: -20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(249, 191, 191);
+  color:black;
+}
+
+
+#start-record-btn-for-investigations {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+#start-record-btn-for-investigations:hover {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  padding: 1.5px;
+}
+
+#save-note-btn-for-investigations {
+  height: 35px;
+  width: 150px;
+  border: solid black 1px;
+  margin-left: 10px;
+  margin-top: -20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(249, 191, 191);
+  color:black;
+}
+
+
+#start-record-btn-for-riskfactors {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+#start-record-btn-for-riskfactors:hover {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  padding: 1.5px;
+}
+
+#save-note-btn-for-riskfactors {
+  height: 35px;
+  width: 150px;
+  border: solid black 1px;
+  margin-left: 10px;
+  margin-top: -20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(249, 191, 191);
+  color:black;
+}
+
+
+#start-record-btn-for-treatments {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+#start-record-btn-for-treatments:hover {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  padding: 1.5px;
+}
+
+#save-note-btn-for-treatments {
+  height: 35px;
+  width: 150px;
+  border: solid black 1px;
+  margin-left: 10px;
+  margin-top: -20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(249, 191, 191);
+  color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+#save-examinations {
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+#examfindings-btn {
+  background-color: lightcyan;
+  color:black;
+  display: inline-block;
+
+}
+
+#save-d1 {
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+#save-d2 {
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+#save-d3 {
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+
+
+.app {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.casename {
+  margin-left: 3.5%;
+}
+
+
+.note {
+  width:100%;
+  
+}
+.header{
+  margin-left: 20px; 
+}
+
+.listen-note {
+  margin-left: 100px;
+}
+
+.delete-note {
+  margin-left: 50px;
+
+}
+
+.date {
+  margin-left: 750px;
+}
+
+.forgottoaskabout{
+  /*float: right;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#whatQuyoumissed-btn{
+  background-color: rgb(249, 191, 191);
+  color:black;
+  border: solid black 1px;
+  height: 5%;
+  padding: 5px;
+  font-size: 100%;
+}
+
+
+
+#numberedlist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  counter-reset: apples;
+}
+
+#numberedlist li:before {
+  content: "Q"counter(apples)":";
+  counter-increment: apples;
+  font-family: sans-serif;
+  color: pink;
+  font-weight: bold;
+  font-size: 38px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+	font-size: 13.5px;
+	text-transform: uppercase;
+  
+}
+.nav-area {
+	background: #262626;
+  
+}
+.nav-area:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.nav-area ul {
+	list-style: none;
+	margin: 0;
+  text-align: center;
+}
+.nav-area>ul>li {
+	
+	position:relative;
+  display: inline-block;
+  
+}
+.nav-area ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 20px;
+	display: block;
+}
+.nav-area ul li:hover a {
+	background: #34495e;
+}
+.nav-area ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+.nav-area ul li:hover>ul {
+	display: block;
+}
+.nav-area ul ul li:hover a {
+	background: #262626;
+}
+.nav-area ul ul li {
+	position: relative;
+}
+.nav-area ul ul ul {
+	top: 0;
+	left: 100%;
+}
+.nav-area ul ul ul li:hover a {
+	background: #34495e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  font-family: sans-serif;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  background: cyan;
+  border: 5px solid blue;
+}
+
+legend {
+  padding: 10px;
+  background: blue;
+  color: cyan;
+}
+
+
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+
+*/
+
+
+
+
+.wrapper {
+  width: 730px;
+  /*margin: 0 auto;*/
+  height: 100%;
+  padding-top: 0px;
+}
+
+#quiz {
+  background-color: #3a4f64;
+  padding-bottom: 60px;
+  width: 100%;
+  border-radius: 2%;
+  color: #fff;
+  /*text-align: center;*/
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+#quiz > h1 {
+/*  text-align: center;*/
+  padding-top: 25px;
+  font-size: 20px;
+  
+}
+
+.headerformultiplechoice{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.questions {
+  font-size: 28px;
+  font-weight: 700;
+  /*font-style: italic;*/
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  padding: 20px;
+}
+
+.answers div {
+  padding: 10px 0 0 0;
+  font-size: 16px;
+}
+
+.answers div:hover {
+  cursor: pointer;
+  color: #FBCB43;
+}
+
+.answers {
+  padding: 0px 0 10px 0px;
+}
+
+.answers div {
+  width: 50%;
+ /* margin: 0 auto;*/
+ padding-left: 20px;
+  padding-bottom: 15px;
+  border-top: 1px solid grey;
+}
+
+.answers div:first-child {
+  border: none;
+}
+
+.checker {
+ /* display: inline-block;*/
+  width: 200px;
+  margin: 0 auto;
+}
+
+.correct, .false {
+  background-color: #109D59;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 4px;
+  float: left;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.false {
+  background-color: #DC4437;
+}
